@@ -1,5 +1,5 @@
-print("program to find Greatest Common Divisor")
 def gcd(x,y):
+         '''Finds the greatest common divisor'''
          if x>y:
                   x = x+y
                   y = x-y
@@ -11,8 +11,4 @@ def gcd(x,y):
                   x = x%y
                   if x == 0:
                            return y
-
-a = int(input("Enter a positive number: "))
-b = int(input("Enter another number: "))
-c = gcd(a,b)
-print("GCD: " + str(c))
+                  
